@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.Ess.com/fa/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.Ess.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://www.Ess.com/fa/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.Ess.com/fa/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.Ess.com/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://www.Ess.com/fa/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.Ess.com/fa/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.Ess.com/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://www.Ess.com/fa/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.Ess.com/fa/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.Ess.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://www.Ess.com/fa/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.Ess.com/fa/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.Ess.com/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://www.Ess.com/fa/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.Ess.com/fa/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.Ess.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://www.Ess.com/fa/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.Ess.com/fa/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.Ess.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://www.Ess.com/fa/"
+                />
+  </url>
+  
+</urlset>
