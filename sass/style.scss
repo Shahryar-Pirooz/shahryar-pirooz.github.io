@@ -81,12 +81,10 @@ $bodyFont: "Quicksand";
 @keyframes colorImages{
   0% {
      filter: grayscale(100%);
-     width: 20%;
     
   }
   100% {
     filter: grayscale(0%);
-    width: 30%;
   }
 }
 //
