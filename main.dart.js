@@ -2007,7 +2007,7 @@ t=!$.d0&&!0
 $.d0=t
 s=document.head.querySelector("#style")
 s.toString
-s.setAttribute("href",t?"css/style-dark-mode.css":"css/style.css")
+s.setAttribute("href",t?"css/style-dark-mode.min.css":"css/style.min.css")
 H.eR(J.Y(s))},
 $S:11}
 F.bI.prototype={
