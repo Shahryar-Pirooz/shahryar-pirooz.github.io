@@ -75,34 +75,41 @@ export default function AboutMe() {
 				</div>
 				<div className='text-justify w-full md:w-2/3'>
 					<div>
+						<h3 className='font-bold text-xl'>
+							Crafting resilient systems and mentoring the next generation of
+							builders.
+						</h3>
 						<p>
-							Hi, I&apos;m Shahryar Pirooz — a full-stack developer with a
-							strong passion for building modern, scalable, and secure systems.
-							My main tech stack includes:
+							Principled software engineer and open-source advocate with a
+							decade of Linux in my bloodstream. I believe that thoughtful
+							engineering, community-driven solutions, and relentless iteration
+							are the bedrock of meaningful progress.
 						</p>
+
+						<p>
+							I see leadership not as a title, but as a responsibility — to
+							challenge assumptions, uplift teams, and always be in service of
+							the mission. Whether scaling microservices, self-hosting
+							infrastructure, or refining CI pipelines, I aim to build with
+							clarity, security, and purpose.
+						</p>
+
+						<p>
+							Currently blending backend and DevOps as I help startups harden
+							and scale their systems. Also working on a personal initiative to
+							teach security-first development and self-hosting through hands-on
+							guides and OSS tools.
+						</p>
+
+						<span className='font-bold'>Favorite Tools:</span>
 
 						<ul className='m-3 list-disc list-inside'>
-							<li>🌐 Frontend: Next.js, React, Tailwind CSS</li>
-							<li>
-								🔧 Backend: Go (Golang) — including CLI tools and microservices
-							</li>
-							<li>
-								🗄️ Data Layer: PostgreSQL for persistence, Redis for caching
-							</li>
-							<li>⚙️ DevOps: Docker, Git, GitHub CI/CD, Linux systems</li>
-							<li>
-								🛰️ Infrastructure: Hands-on experience with NAS servers and
-								Caddy for web serving
-							</li>
+							<li>Golang (gRPC, Fiber, Cobra)</li>
+							<li>PostgreSQL & Redis</li>
+							<li>Docker & Compose</li>
+							<li>GitHub & CI/CD</li>
+							<li>EndeavourOS (Arch) & Caddy</li>
 						</ul>
-
-						<p>
-							I&apos;m deeply interested in DevOps, cloud-native development,
-							and web application security — particularly penetration testing.
-							My focus is on mastering Go and PostgreSQL, strengthening my
-							infrastructure skills, and continuously improving as a full-stack
-							engineer.
-						</p>
 					</div>
 				</div>
 			</div>
