@@ -7,11 +7,10 @@ import {
 	BsStackOverflow,
 	BsEnvelopeAt,
 } from 'react-icons/bs'
-import { IconType } from 'react-icons'
 import Link from 'next/link'
+import { IconItemType } from '@/types/about-icon'
 
-type iconItem = { icon: IconType; color: string; link: string }
-const icons: iconItem[] = [
+const icons: IconItemType[] = [
 	{
 		icon: BsLinkedin,
 		color: 'hover:text-[#0077B5]',
