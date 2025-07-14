@@ -11,17 +11,32 @@ import { IconType } from 'react-icons'
 import Link from 'next/link'
 
 type iconItem = { icon: IconType; color: string; link: string }
-
 const icons: iconItem[] = [
 	{
 		icon: BsLinkedin,
-		color: 'text-accent',
+		color: 'hover:text-[#0077B5]',
 		link: 'https://www.linkedin.com/in/shahryar-pirooz/',
 	},
-	{ icon: BsTelegram, color: 'text-blue-600', link: '' },
-	{ icon: BsGithub, color: 'text-foreground', link: '' },
-	{ icon: BsStackOverflow, color: 'text-orange-500', link: '' },
-	{ icon: BsEnvelopeAt, color: 'text-green-500', link: '' },
+	{
+		icon: BsTelegram,
+		color: 'hover:text-[#0088cc]',
+		link: 'https://t.me/DevShahryar',
+	},
+	{
+		icon: BsGithub,
+		color: 'hover:text-foreground',
+		link: 'https://github.com/Shahryar-Pirooz',
+	},
+	{
+		icon: BsStackOverflow,
+		color: 'hover:text-[#F47F24]',
+		link: 'https://stackoverflow.com/users/8499069/shahryar-pirooz',
+	},
+	{
+		icon: BsEnvelopeAt,
+		color: 'hover:text-[#BB001B]',
+		link: 'mailto:dev.shahryar@gmail.com',
+	},
 ]
 
 export default function AboutMe() {
@@ -52,7 +67,7 @@ export default function AboutMe() {
 									href={link}
 								>
 									<Icon
-										className={`hover:scale-125 hover:cursor-pointer transition duration-500 text-gray-400 hover:${color}`}
+										className={`hover:scale-125 hover:cursor-pointer transition duration-500 text-gray-400 ${color}`}
 									/>
 								</Link>
 							)
