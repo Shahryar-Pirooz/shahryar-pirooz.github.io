@@ -9,6 +9,7 @@ import {
 } from 'react-icons/bs'
 import Link from 'next/link'
 import { IconItemType } from '@/types/about-icon'
+import Title from '@/components/title/title'
 
 const icons: IconItemType[] = [
 	{
@@ -41,14 +42,10 @@ const icons: IconItemType[] = [
 export default function AboutMe() {
 	return (
 		<section className='flex flex-col w-full space-y-32 pb-8'>
-			<div className='h-fit'>
-				<div className='text-center md:text-start font-bold text-md uppercase'>
-					about
-				</div>
-				<div className='text-center md:text-start h-fit w-full text-5xl static md:relative font-bold before:hidden before:md:block before:content-[" "] before:bg-foreground before:w-15 before:h-1 before:md:absolute before:md:-bottom-4'>
-					I&apos;m Shahryar Pirooz
-				</div>
-			</div>
+			<Title
+				h1='about'
+				h2="I'm Shahryar Pirooz"
+			/>
 			<div className='flex flex-col flex-nowrap md:flex-row h-full w-9/12 space-y-4 items-center mx-auto'>
 				<div className='w-full md:flex-1/3 flex-row space-y-4 items-center justify-around'>
 					<Image
