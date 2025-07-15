@@ -1,0 +1,17 @@
+[
+	{
+		"name": "magical-crawler",
+		"description": "Magical Crawler is a powerful web crawling tool designed to automate the process of collecting, filtering, and managing web data.",
+		"url": "https://github.com/Group8Delta/magical-crawler"
+	},
+	{
+		"name": "Golibaba",
+		"description": "The Golibaba is a modular and scalable application inspired by travel platforms like Alibaba.",
+		"url": "https://github.com/goli-nababa/golibaba-backend"
+	},
+	{
+		"name": "Taskoryx",
+		"description": "A full-stack, self-hostable task management system built with Go and React.",
+		"url": "https://github.com/Shahryar-Pirooz/Taskoryx"
+	}
+]
