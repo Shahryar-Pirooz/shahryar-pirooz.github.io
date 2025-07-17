@@ -1,53 +1,53 @@
 import projects from '@/app/data/projects.json'
 import Title from '@/components/title/title'
-import { Project } from '@/types/project'
 import Link from 'next/link'
-import { BsGithub } from 'react-icons/bs'
+// import { BsGithub } from 'react-icons/bs'
 
 export default function Projects() {
 	return (
-		<section className='flex flex-col my-5'>
-			<Title
-				h1='Projects'
-				h2='Featured Work'
-			/>
-			<div className='grid grid-cols-3 gap-2 w-full h-fit my-4 py-4 px-2'>
-				{projects.map((project: Project, index) => {
-					return (
-						<div
-							className='border rounded-md flex justify-around flex-col flex-nowrap py-4 px-2 space-y-2 '
-							key={index}
+		<section
+			id='projects'
+			className='py-16 px-4 md:px-16'
+		>
+			<div className='max-w-5xl mx-auto flex flex-col space-y-10'>
+				<div className='mb-8'>
+					<Title
+						h1='my'
+						h2='Featured Projects'
+					/>
+				</div>
+
+				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
+					{projects.map((project) => (
+						<Link
+							key={project.name}
+							href={project.url}
+							target='_blank'
+							rel='noopener noreferrer'
+							className='group border border-accent p-6 rounded-2xl hover:shadow-xl hover:bg-accent transition-all duration-300'
 						>
-							<div className='font-bold text-xl w-full text-center underline hover:cursor-pointer'>
-								<h3>{project.name}</h3>
-							</div>
-							<div>
-								<p className='w-full text-center '>{project.description}</p>
-							</div>
-							<Link
-								className='size-fit'
-								href={project.url}
-							>
-								<div className='flex flex-row flex-nowrap bg-foreground text-background size-full justify-center items-center space-x-2 rounded-md px-4 py-2'>
-									<BsGithub />
-									<span>Code</span>
-								</div>
-							</Link>
-						</div>
-					)
-				})}
+							<h3 className='text-xl font-semibold text-accent group-hover:text-background'>
+								{project.name}
+							</h3>
+							<p className='text-foreground text-sm mt-2 group-hover:text-gray-200'>
+								{project.description}
+							</p>
+						</Link>
+					))}
+				</div>
+				<div className='flex flex-col justify-center items-center'>
+					<span className='w-full text-center text-lg'>&</span>
+					<span className='w-full text-center text-3xl'>
+						More on{' '}
+						<Link
+							href='https://github.com/Shahryar-Pirooz/'
+							className='font-black'
+						>
+							GitHub
+						</Link>
+					</span>
+				</div>
 			</div>
-			<span className='text-5xl font-bold text-center w-full my-2'> & </span>
-			<span className='text-xl text-center w-full'>
-				More Projects in my
-				<Link
-					className='font-black'
-					href='https://www.github.com/Shahryar-pirooz'
-				>
-					{' '}
-					GITHUB{' '}
-				</Link>
-			</span>
 		</section>
 	)
 }
