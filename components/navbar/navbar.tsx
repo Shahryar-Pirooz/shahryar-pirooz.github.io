@@ -5,16 +5,16 @@ import { navbarItemType } from '@/types/navbra-item'
 
 const navbarItems: navbarItemType[] = [
 	{
-		text: 'Project',
-		link: '',
+		text: 'Projects',
+		link: '#projects',
 	},
 	{
 		text: 'About',
-		link: '',
+		link: '#about',
 	},
 	{
 		text: 'Contact',
-		link: '',
+		link: '#contact',
 	},
 ]
 
@@ -24,8 +24,9 @@ export default function Navbar() {
 	return (
 		<nav className='px-8 py-4 sticky top-0 z-50 bg-background shadow'>
 			<div className='flex items-center justify-between'>
-				<div className='text-2xl'>Shahryar Pirooz</div>
-				{/* Hamburger menu for mobile */}
+				<div className='text-2xl'>
+					<a href='#home'>Shahryar Pirooz</a>
+				</div>
 				<button
 					className='md:hidden flex items-center px-3 py-2'
 					onClick={() => setMenuOpen(!menuOpen)}
@@ -72,7 +73,6 @@ export default function Navbar() {
 					</li>
 				</ul>
 			</div>
-			{/* Mobile menu */}
 			{menuOpen && (
 				<ul className='md:hidden flex flex-col mt-4 space-y-4 text-lg text-gray-500'>
 					{navbarItems.map(({ text, link }, index) => {
