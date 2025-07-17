@@ -41,7 +41,10 @@ const icons: IconItemType[] = [
 
 export default function AboutMe() {
 	return (
-		<section className='flex flex-col w-full space-y-32 pb-8'>
+		<section
+			id='about'
+			className='flex flex-col w-full space-y-32 pb-8'
+		>
 			<Title
 				h1='about'
 				h2="I'm Shahryar Pirooz"
