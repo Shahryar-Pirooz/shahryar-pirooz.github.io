@@ -4,6 +4,7 @@
 	--background: #ffffff;
 	--foreground: #212529;
 	--accent: #0d6efd;
+	scroll-behavior: smooth;
 }
 
 ::selection {
@@ -25,6 +26,10 @@
 		--foreground: #ededed;
 	}
 } */
+
+section {
+	@apply container mx-auto;
+}
 
 body {
 	background: var(--background);
