@@ -1,23 +1,25 @@
 import BlueBtn from '@/components/blue_btn/blue_btn'
+
 export default function Banner() {
-	const marker =
-		'before:content-[" "] before:bg-[#0b6efd87] before:w-[102%] before:h-5 before:-z-3 before: before:bottom-1 before:absolute relative '
 	return (
-		<section
-			id='home'
-			className='flex flex-col justify-center text-center w-full h-full min-h-screen space-y-5 px-8'
-		>
-			<h1 className='text-2xl font-bold'>meet Shahryar Pirooz</h1>
-			<div className='text-7xl font-bold leading-tight'>
-				<span className={`${marker}`}>Code with purpose</span>. <wbr />
-				Architect at heart. <wbr />
-				Systems <span className={`${marker}`}>crafted to scale</span>.
-			</div>
-			<div className='text-base'>
-				I don’t just code — I design, debug, and deliver.
-			</div>
-			<div className='justify-center items-center mx-auto'>
-				<BlueBtn />
+		<section id='home' className='flex min-h-[88vh] flex-col justify-center py-16'>
+			<div className='mx-auto max-w-4xl text-center'>
+				<p className='mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-muted'>
+					Software Engineer · Backend · DevOps
+				</p>
+				<h1 className='text-4xl font-semibold leading-tight md:text-6xl lg:text-7xl'>
+					Building clean, resilient products with a modern edge.
+				</h1>
+				<p className='mx-auto mt-6 max-w-2xl text-base leading-8 text-muted md:text-lg'>
+					I design systems, ship reliable backend services, and turn complex
+					ideas into polished experiences.
+				</p>
+				<div className='mt-10 flex flex-wrap justify-center gap-4'>
+					<BlueBtn />
+					<a href='#projects' className='rounded-full border border-border px-6 py-3 font-medium transition hover:-translate-y-0.5 hover:bg-foreground hover:text-background'>
+						See Projects
+					</a>
+				</div>
 			</div>
 		</section>
 	)

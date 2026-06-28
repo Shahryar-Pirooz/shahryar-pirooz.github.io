@@ -5,13 +5,9 @@ type Props = {
 
 export default function Title({ h1, h2 }: Props) {
 	return (
-		<div className='h-fit'>
-			<div className='text-center md:text-start font-bold text-md uppercase'>
-				{h1}
-			</div>
-			<div className='text-center md:text-start h-fit w-full text-3xl static md:relative font-semibold before:hidden before:md:block before:content-[" "] before:bg-foreground before:w-15 before:h-1 before:md:absolute before:md:-bottom-4'>
-				{h2}
-			</div>
+		<div className='space-y-3'>
+			<p className='text-sm font-semibold uppercase tracking-[0.3em] text-accent'>{h1}</p>
+			<h2 className='text-3xl font-semibold md:text-4xl'>{h2}</h2>
 		</div>
 	)
 }

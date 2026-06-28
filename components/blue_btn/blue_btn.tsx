@@ -5,15 +5,9 @@ import Link from 'next/link'
 
 export default function BlueBtn() {
 	return (
-		<div className='bg-accent px-4 py-2 text-center text-background rounded-md w-fit'>
-			<Link href='https://www.linkedin.com/in/shahryar-pirooz/'>
-				<div className='text-md flex flex-row space-x-3 justify-around items-center'>
-					<div>
-						<BsLinkedin />
-					</div>
-					<div className='text-center w-full'>Connect On LinkedIn</div>
-				</div>
-			</Link>
-		</div>
+		<Link href='https://www.linkedin.com/in/shahryar-pirooz/' className='inline-flex items-center gap-3 rounded-full bg-accent px-6 py-3 font-medium text-white shadow-lg shadow-accent/25 transition hover:-translate-y-0.5 hover:bg-accent-strong'>
+			<BsLinkedin />
+			<span>Connect on LinkedIn</span>
+		</Link>
 	)
 }
