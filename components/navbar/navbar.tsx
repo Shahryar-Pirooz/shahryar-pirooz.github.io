@@ -16,7 +16,7 @@ export default function Navbar() {
 	return (
 		<nav className='sticky top-0 z-40 border-b border-border/70 bg-background/80 backdrop-blur-xl'>
 			<div className='container mx-auto flex items-center justify-between px-4 py-4 md:px-8'>
-				<a href='#home' className='text-lg font-semibold tracking-tight md:text-xl'>
+				<a href='#main-content' className='text-lg font-semibold tracking-tight md:text-xl'>
 					Shahryar Pirooz
 				</a>
 

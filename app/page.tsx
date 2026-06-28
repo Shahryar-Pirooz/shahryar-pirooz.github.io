@@ -6,7 +6,7 @@ import Projects from './sections/projects'
 
 export default function Home() {
 	return (
-		<main className='mx-auto flex max-w-7xl flex-col gap-24 px-4 pb-8 md:px-8'>
+		<main id='main-content' className='mx-auto flex max-w-7xl flex-col gap-24 px-4 pb-8 md:px-8'>
 			<Banner />
 			<Projects />
 			<AboutMe />
