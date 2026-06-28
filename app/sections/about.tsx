@@ -16,7 +16,7 @@ const icons: IconItemType[] = [
 export default function AboutMe() {
 	return (
 		<section id='about' className='space-y-10 py-8'>
-			<Title h1='about' h2="I'm Shahryar Pirooz" />
+			<Title h1='about' h2="Shahryar" />
 			<div className='grid gap-10 rounded-3xl border border-border bg-surface p-6 shadow-xl backdrop-blur md:grid-cols-[280px_1fr] md:p-10'>
 				<div className='flex flex-col items-center gap-5 text-center'>
 					<Image src={avatar} alt='my avatar' height={220} width={220} className='rounded-full ring-4 ring-border' />
