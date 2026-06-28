@@ -22,8 +22,8 @@ export default function Navbar() {
 	const [menuOpen, setMenuOpen] = useState(false)
 
 	return (
-		<nav className='container mx-auto py-4 sticky top-0 z-50 bg-background shadow'>
-			<div className='flex items-center justify-between'>
+		<nav className='px-8 py-4 sticky top-0 z-50 bg-background shadow'>
+			<div className='container mx-auto flex items-center justify-between'>
 				<div className='text-2xl'>
 					<a href='#home'>Shahryar Pirooz</a>
 				</div>
