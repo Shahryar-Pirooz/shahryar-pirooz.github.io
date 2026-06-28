@@ -5,7 +5,7 @@ export default function Banner() {
 		<section id='home' className='flex min-h-[88vh] flex-col justify-center py-16'>
 			<div className='mx-auto max-w-4xl text-center'>
 				<p className='mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-muted'>
-					Software Engineer · Backend · DevOps
+					Software Engineer · Frontend · Backend
 				</p>
 				<h1 className='text-4xl font-semibold leading-tight md:text-6xl lg:text-7xl'>
 					Building clean, resilient products with a modern edge.
