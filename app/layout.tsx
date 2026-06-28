@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 		template: '%s | Shahryar Pirooz',
 	},
 	description: 'Personal portfolio of Shahryar Pirooz, a software engineer focused on backend systems, DevOps, and open source.',
-	keywords: ['Shahryar Pirooz', 'portfolio', 'software engineer', 'backend', 'DevOps', 'open source'],
+	keywords: ['Shahryar Pirooz', 'portfolio', 'software engineer', 'frontend', 'backend', 'open source'],
 	alternates: {
 		canonical: '/',
 	},
