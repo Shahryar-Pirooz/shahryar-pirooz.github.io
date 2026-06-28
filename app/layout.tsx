@@ -11,6 +11,9 @@ const notoSans = Noto_Sans({
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://shahryar-pirooz.github.io'),
+	appleWebApp: {
+		title:'Shahryar Pirooz | Software Engineer',
+	},
 	title: {
 		default: 'Shahryar Pirooz | Software Engineer',
 		template: '%s | Shahryar Pirooz',
