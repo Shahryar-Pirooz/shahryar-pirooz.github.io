@@ -1,47 +1,34 @@
-# Shahryar Pirooz — Personal Website
+# Shahryar Pirooz Portfolio
 
-This is my personal website, built with [Next.js](https://nextjs.org/) and styled using [Tailwind CSS](https://tailwindcss.com/).  
-It showcases my work, interests, and background as a software engineer focused on backend, DevOps, and open source systems.
+A personal portfolio site built with [Next.js](https://nextjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/). It presents my background, selected projects, and contact links in a clean one-page layout.
 
+## Tech Stack
 
----
+- **Framework**: Next.js 15 with the App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: react-icons
 
-## 🚀 Features
+## Project Structure
 
-- ✨ Minimal, modern, fast-loading UI
-- ⚡️ Powered by Next.js App Router
-- 🎨 Fully customized Tailwind CSS design
+- `app/page.tsx` — main page composition
+- `app/sections/` — page sections such as banner, about, projects, contact, and footer
+- `components/` — shared UI pieces like the navbar, button, title, and theme toggle
+- `app/data/projects.json` — project content used by the portfolio section
 
----
+## Scripts
 
-## 🔧 Stack
+- `npm run dev` — start the local development server
+- `npm run build` — build the production app
+- `npm run start` — run the production server
+- `npm run lint` — run Next.js linting
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: [react-icons](https://react-icons.github.io/react-icons)
+## Contact
 
----
+- Email: [dev.shahryar@gmail.com](mailto:dev.shahryar@gmail.com)
+- LinkedIn: [Shahryar Pirooz](https://www.linkedin.com/in/shahryar-pirooz/)
+- GitHub: [@Shahryar-Pirooz](https://github.com/Shahryar-Pirooz)
 
-## 📫 Contact
+## License
 
-Feel free to reach out via:
-
-* Email: [dev.shahryar@gmail.com](mailto:dev.shahryar@gmail.com)
-* LinkedIn: [Shahryar Pirooz](https://www.linkedin.com/in/shahryar-pirooz/)
-* GitHub: [@Shahryar-Pirooz](https://github.com/Shahryar-Pirooz)
-
----
-
-## 🖌️ Design Inspiration
-
-This site was inspired by the elegant, developer-centric design of
-[Morgan J. Lopes](https://github.com/morganjlopes)'s personal site. Much respect 🙌
-
----
-
-## 📜 License
-
-This project is open-sourced under the [MIT License](LICENSE),
-but please credit me or the inspiration source if you fork the design.
-
----
+This project is open source under the MIT License.
