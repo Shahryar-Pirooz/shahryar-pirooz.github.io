@@ -1,17 +1,17 @@
 [
 	{
-		"name": "magical-crawler",
-		"description": "Magical Crawler is a powerful web crawling tool designed to automate the process of collecting, filtering, and managing web data.",
-		"url": "https://github.com/Group8Delta/magical-crawler"
+		"name": "Tria",
+		"description": "Tria generates strong, repeatable passwords from three values.",
+		"url": "https://shahryar-pirooz.github.io/Tria/"
 	},
 	{
-		"name": "Golibaba",
-		"description": "The Golibaba is a modular and scalable application inspired by travel platforms like Alibaba.",
-		"url": "https://github.com/goli-nababa/golibaba-backend"
+		"name": "rss-reader",
+		"description": "Opinionated starter for a small, fast RSS/Atom reader built with Next.js and TypeScript.",
+		"url": "https://rss-reader-eight-sepia.vercel.app/"
 	},
 	{
 		"name": "Taskoryx",
-		"description": "A full-stack, self-hostable task management system built with Go and React.",
-		"url": "https://github.com/Shahryar-Pirooz/Taskoryx"
+		"description": " modern task management application built with TypeScript, Vite, and Tailwind CSS. Designed around a custom modular frontend architecture with dedicated rendering, state management, event handling, and business logic instead of a traditional UI framework.",
+		"url": "https://five-o-one.github.io/Taskyrox/"
 	}
 ]
