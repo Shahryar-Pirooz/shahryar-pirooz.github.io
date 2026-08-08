@@ -58,8 +58,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-8 max-w-3xl text-lg leading-8 text-muted md:text-xl">
-            Software engineer focused on modern frontend development and Go
-            backend engineering. I build full-stack applications, developer
+            Software engineer focused on modern frontend development and backend. I build full-stack applications, developer
             tools, and open-source projects, with a strong interest in Linux,
             self-hosting, system design, and clean architecture.
           </p>
