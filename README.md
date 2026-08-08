@@ -4,23 +4,23 @@
 
 # Hey, I'm Shahryar Pirooz!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Frontend%20Developer;Go%20Developer;Open%20Source%20Enthusiast;Linux%20•%20Docker%20•%20Self-Hosting)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Frontend%20Developer;Backend%20Developer;Open%20Source%20Enthusiast;Linux%20•%20Docker%20•%20Self-Hosting)](https://git.io/typing-svg)
 
 </div>
 
 ## 🚀 About Me
 
-I'm a software engineer with a strong frontend background and a growing focus on backend development using Go. I enjoy building reliable software, exploring system design, and contributing to open-source projects.
+I'm a software engineer with a strong frontend background and a growing focus on backend development using NestJS and go. I enjoy building reliable software, exploring system design, and contributing to open-source projects.
 
 ## 💻 What I work with
 
-* **Backend:** Go, PostgreSQL, SQLite, MariaDB, Docker, REST APIs, Microservices
-* **Frontend:** React, Next.js, TypeScript, JavaScript, Tailwind CSS
+* **Backend:** NestJS, PostgreSQL, SQLite, MariaDB, Docker, REST APIs, Microservices
+* **Frontend:** React, Next.js, VueJS, NuxtJS, TypeScript, JavaScript, Tailwind CSS
 * **Tools:** Linux, Git, Bash, Docker
 
 ## 🚀 Current Focus
 
-* Deepening my knowledge of Go and backend architecture
+* Deepening my knowledge of NestJS and backend architecture
 * Building production-ready backend services and full-stack applications
 * Learning more about application security and penetration testing
 * Contributing to open-source projects
@@ -54,6 +54,7 @@ I'm always interested in connecting with developers, collaborating on open-sourc
 
 ### Backend
 
+![NestJS](https://img.shields.io/badge/Nest.JS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
 ### Database
