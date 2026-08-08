@@ -1,53 +1,55 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 :root {
-	--background: #f7f8fc;
-	--surface: rgba(255, 255, 255, 0.72);
-	--foreground: #101828;
-	--muted: #667085;
-	--border: rgba(16, 24, 40, 0.12);
-	--accent: #2563eb;
-	--accent-strong: #1d4ed8;
+  --background: #071312;
+  --surface: rgba(12, 30, 28, 0.72);
+  --surface-strong: #0d2421;
+  --foreground: #ecfdf8;
+  --muted: #91aaa5;
+  --border: rgba(110, 231, 183, 0.14);
+  --accent: #38bdf8;
+  --accent-2: #34d399;
+  --accent-strong: #10b981;
 }
 
-:root[data-theme='dark'] {
-	--background: #050816;
-	--surface: rgba(9, 14, 31, 0.76);
-	--foreground: #f8fafc;
-	--muted: #94a3b8;
-	--border: rgba(148, 163, 184, 0.16);
-	--accent: #60a5fa;
-	--accent-strong: #3b82f6;
-}
+* { box-sizing: border-box; }
 
-html {
-	scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
-	background:
-		radial-gradient(circle at top, rgba(37, 99, 235, 0.14), transparent 30%),
-		var(--background);
-	color: var(--foreground);
-	font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(56,189,248,.14), transparent 30%),
+    radial-gradient(circle at 90% 15%, rgba(52,211,153,.12), transparent 28%),
+    var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-::selection {
-	background-color: var(--accent);
-	color: #fff;
-}
+::selection { background: var(--accent-2); color: #03110e; }
 
 @theme inline {
-	--color-background: var(--background);
-	--color-surface: var(--surface);
-	--color-foreground: var(--foreground);
-	--color-muted: var(--muted);
-	--color-border: var(--border);
-	--color-accent: var(--accent);
-	--color-accent-strong: var(--accent-strong);
-	--font-sans: var(--font-noto-sans);
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-strong: var(--accent-strong);
 }
 
-section {
-	@apply container mx-auto px-4 md:px-8;
+section { @apply mx-auto w-full max-w-7xl px-5 md:px-8; }
+
+.glass {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(18px);
+}
+
+.gradient-text {
+  background: linear-gradient(110deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
